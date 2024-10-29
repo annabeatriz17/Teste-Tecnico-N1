@@ -21,21 +21,33 @@ body {
 }
 
 .card-container {
-    width: 70%;
-    height: 90%;
+    width: 65%;
+    height: 85%;
     padding: 40px;
     background-color: #c0c0c0;
 }
 
-.card-container img {
-    width: 30px;
+.icons-container {
+    display: flex;
+    flex-direction: row;
 }
+
+.icons-container img {
+    width: 30px;
+    margin: 15px;
+}
+
+.icon-seta {
+    margin-left: auto;
+}
+
 .card-item {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     padding: 15px;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .card-item img {
@@ -62,8 +74,13 @@ body {
     font-size: 14px;
     color: #333;
 }
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 16px;
+}
 
-/* Right side - Checkout */
 .checkout {
     width: 40%;
     padding: 20px;
@@ -74,47 +91,28 @@ body {
 .checkout h2 {
     font-size: 22px;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
-.payment-options {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.payment-option {
-    width: 50px;
-    height: 30px;
-    background-color: #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.card-info {
-    background-color: #555;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    color: #ccc;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.card-info span {
-    font-size: 12px;
-    color: #ddd;
-}
-
-.total {
+.text-card {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     font-size: 16px;
 }
+
+.text {
+    font-size: 22px;
+    padding: 60px;
+}
+
+.card-info {
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+}
+
+
 
 .buttons {
     display: flex;
